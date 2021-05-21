@@ -1,0 +1,153 @@
+body {
+  background:url('campus.jpg');
+  background-size: cover;
+  margin:0px;
+  font-family: 'Ubuntu', "Roboto", "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 1.57143;
+  color: #555;
+  background-color: #000; 
+}
+.error {
+  
+		width: 92%;
+	  margin: 0px auto;
+	  padding: 10px;
+	  border: 1px solid red;
+	  color: red;
+	  background: #f2dede;
+	  border-radius: 5px;
+	  text-align: center;
+}
+.login {
+  margin:0 auto;
+  max-width:500px;
+  background-color:#FFF;
+}
+.login-header {
+  color:#000;
+  text-align:center;
+  font-size:300%;
+}
+/* .login-header h1 {
+   text-shadow: 0px 5px 15px #000; */
+}
+.login-form {
+  border:.5px solid #fff;
+  background:#4facff;
+  border-radius:10px;
+  box-shadow:0px 0px 10px #000;
+}
+.login-form h3{
+  text-align:left;
+  margin-left:40px;
+  color:#000;
+}
+.login-form {
+  box-sizing:border-box;
+  padding-top:15px;
+	padding-bottom:10%;
+  margin:5% auto;
+  text-align:center;
+}
+
+
+.password-reset {
+  color:#0F1745;
+  margin:20px 0px 20px -57%;
+  text-decoration:underline;
+  cursor:pointer;
+}
+/*.php*/
+
+.input-group {
+	margin: 20px 0px 10px 0px;
+}
+
+.input-group input{
+  height:30px;
+  width:75%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border:1px solid gray;
+  border-radius:5px;
+  text-transform:uppercase;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  border:2px solid #f2f2f2
+ } 
+ 
+.input-group label {
+  text-align:center;
+  margin: 3px;
+	color:#000;
+	display: block;
+}
+
+.error {
+	  width: 92%;
+	  margin: 0px auto;
+	  padding: 10px;
+	  border: 1px solid red;
+	  color: red;
+	  background: #f2dede;
+	  border-radius: 5px;
+	  text-align: left;
+  }
+  
+  .success {
+	  color: #3c763d;
+	  background: #dff0d8;
+	  border: 1px solid #3c763d;
+	  margin-bottom: 20px; 
+	 
+ }
+  
+ .content{
+		width: 30%;
+		margin: 0px auto;
+		padding: 20px;
+		border: 1px solid #B0C4DE;
+		background: white;
+		border-radius: 0px 0px 10px 10px;
+		max-width:500px;
+ }
+ 
+ 
+.btn {
+    margin-bottom:10px;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background:#0F1745;
+	border: none;
+	border-radius: 5px;
+	height:30px;
+  width:200px;
+  background:#0F1745;
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: #FFF;
+  text-transform:uppercase;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  cursor:pointer;
+  }
+  
+ 
+
+
+/*Media Querie*/
+@media only screen and (min-width : 150px) and (max-width : 530px){
+  .login-form h3 {
+    text-align:center;
+    margin:0;
+  }
+ .password-reset {
+    margin:10px 0;
+  }
+  
+}
+
+ 
